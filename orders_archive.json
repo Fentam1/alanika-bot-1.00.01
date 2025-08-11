@@ -1,0 +1,929 @@
+[
+  {
+    "manager": "Nikita",
+    "client": "SIA Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 15,
+        "sum_no_vat": 79.95,
+        "sum_with_vat": 96.75
+      },
+      {
+        "code": "4792252933552",
+        "name": "green tea MAGIC FRUIT SOURSOP",
+        "stock": 5183,
+        "expiry": "19.12.2026",
+        "price_no_vat": "3",
+        "price_with_vat": "3.63",
+        "qty": 30,
+        "sum_no_vat": 90.0,
+        "sum_with_vat": 108.9
+      }
+    ],
+    "note": "Скидка 50% на всё.",
+    "delivery_date": "28.08",
+    "delivery_address": "Brivibas iela 120, Riga",
+    "timestamp": "2025-08-08T19:41:22.478970"
+  },
+  {
+    "manager": "Nikita",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      },
+      {
+        "code": "4792252400184",
+        "name": "green tea \"The Garden of Stones'' Milk Oolong",
+        "stock": 1355,
+        "expiry": "15.02.2028",
+        "price_no_vat": "4.25",
+        "price_with_vat": "5.14",
+        "qty": 20,
+        "sum_no_vat": 85.0,
+        "sum_with_vat": 102.8
+      }
+    ],
+    "note": "скидочку 10% на весь 0011",
+    "delivery_date": "12.08",
+    "delivery_address": "Liepajas 18B , Daugavpils",
+    "timestamp": "2025-08-08T20:01:47.482966"
+  },
+  {
+    "manager": "никита",
+    "client": "максима",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 19,
+        "sum_no_vat": 101.27,
+        "sum_with_vat": 122.55
+      }
+    ],
+    "note": "ляля фа туды сюды",
+    "delivery_date": "12.08.2025",
+    "delivery_address": "Birnieka Upisa, 122",
+    "timestamp": "2025-08-08T20:11:43.690022"
+  },
+  {
+    "manager": "Никита",
+    "client": "Rimi Baltic",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 30,
+        "sum_no_vat": 159.9,
+        "sum_with_vat": 193.5
+      },
+      {
+        "code": "4792252100183",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.02",
+        "qty": 10,
+        "sum_no_vat": 41.5,
+        "sum_with_vat": 50.2
+      },
+      {
+        "code": "4792252400184",
+        "name": "green tea \"The Garden of Stones'' Milk Oolong",
+        "stock": 1355,
+        "expiry": "15.02.2028",
+        "price_no_vat": "4.25",
+        "price_with_vat": "5.14",
+        "qty": 20,
+        "sum_no_vat": 85.0,
+        "sum_with_vat": 102.8
+      },
+      {
+        "code": "4792252933491",
+        "name": "green tea MAGIC FRUIT APRICOT & PASSION FRUIT",
+        "stock": 3648,
+        "expiry": "26.09.2027",
+        "price_no_vat": "3",
+        "price_with_vat": "3.63",
+        "qty": 20,
+        "sum_no_vat": 60.0,
+        "sum_with_vat": 72.6
+      }
+    ],
+    "note": "Пожалуйста на позицию 0011 скидка 20% для этого заказа",
+    "delivery_date": "12.08.2025",
+    "delivery_address": "Jomas 37, Jurmala",
+    "timestamp": "2025-08-08T20:20:45.914290"
+  },
+  {
+    "manager": "Nikita",
+    "client": "2222222",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      }
+    ],
+    "note": "xxx",
+    "delivery_date": "22",
+    "delivery_address": "Brivibas 124",
+    "timestamp": "2025-08-08T20:47:19.074317"
+  },
+  {
+    "manager": "Nikita",
+    "client": "Rimi Baltic",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 30,
+        "sum_no_vat": 159.9,
+        "sum_with_vat": 193.5
+      },
+      {
+        "code": "4792252100183",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.02",
+        "qty": 20,
+        "sum_no_vat": 83.0,
+        "sum_with_vat": 100.4
+      },
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 25,
+        "sum_no_vat": 133.25,
+        "sum_with_vat": 161.25
+      }
+    ],
+    "note": "-",
+    "delivery_date": "12.02",
+    "delivery_address": "Brivibas iela 15",
+    "timestamp": "2025-08-08T21:11:49.750501"
+  },
+  {
+    "manager": "Nikita",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 33,
+        "sum_no_vat": 175.89,
+        "sum_with_vat": 212.85
+      },
+      {
+        "code": "4792252100183",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.02",
+        "qty": 20,
+        "sum_no_vat": 83.0,
+        "sum_with_vat": 100.4
+      },
+      {
+        "code": "4711137554194",
+        "name": "JUSTMAKE Roasted Oolong Tea 150g",
+        "stock": 7,
+        "expiry": "05.01.2028",
+        "price_no_vat": "12.45",
+        "price_with_vat": "15.06",
+        "qty": 2,
+        "sum_no_vat": 24.9,
+        "sum_with_vat": 30.12
+      }
+    ],
+    "note": "20% discount на 0011",
+    "delivery_date": "12.08",
+    "delivery_address": "Brivibas iela 124",
+    "timestamp": "2025-08-08T21:23:01.372426"
+  },
+  {
+    "manager": "Nikit",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 16,
+        "sum_no_vat": 85.28,
+        "sum_with_vat": 103.2
+      }
+    ],
+    "note": "-",
+    "delivery_date": "1",
+    "delivery_address": "1",
+    "timestamp": "2025-08-08T21:36:30.704982"
+  },
+  {
+    "manager": "я",
+    "client": "ч",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      },
+      {
+        "code": "4792252936812",
+        "name": "green tea Chinese collection \"JASMINE GREEN\"",
+        "stock": 4295,
+        "expiry": "08.02.2027",
+        "price_no_vat": "2.82",
+        "price_with_vat": "3.41",
+        "qty": 12,
+        "sum_no_vat": 33.84,
+        "sum_with_vat": 40.92
+      },
+      {
+        "code": "4711137550035",
+        "name": "JUSTMAKE Tsui Yu Oolong Tea 100g",
+        "stock": 157,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      }
+    ],
+    "note": "-",
+    "delivery_date": "12/08",
+    "delivery_address": "Rigas 18, Rigfa",
+    "timestamp": "2025-08-08T22:32:34.818063"
+  },
+  {
+    "manager": "Татьяна",
+    "client": "Симона",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 5,
+        "sum_no_vat": 26.65,
+        "sum_with_vat": 32.25
+      },
+      {
+        "code": "4792252100183",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 5,
+        "sum_no_vat": 20.75,
+        "sum_with_vat": 25.65
+      },
+      {
+        "code": "4792252400184",
+        "name": "green tea \"The Garden of Stones'' Milk Oolong",
+        "stock": 1355,
+        "expiry": "15.02.2028",
+        "price_no_vat": "4.25",
+        "price_with_vat": "5.14",
+        "qty": 10,
+        "sum_no_vat": 42.5,
+        "sum_with_vat": 51.4
+      }
+    ],
+    "note": ".",
+    "delivery_date": "11.08",
+    "delivery_address": "Dammes 13",
+    "timestamp": "2025-08-08T23:09:39.308471"
+  },
+  {
+    "manager": "Никита",
+    "client": "Максима",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 5,
+        "sum_no_vat": 26.65,
+        "sum_with_vat": 32.25
+      },
+      {
+        "code": "4792252100183",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 15,
+        "sum_no_vat": 62.25,
+        "sum_with_vat": 76.95
+      },
+      {
+        "code": "4711137550035",
+        "name": "JUSTMAKE Tsui Yu Oolong Tea 100g",
+        "stock": 157,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      }
+    ],
+    "note": "-",
+    "delivery_date": "12.08",
+    "delivery_address": "Babruisk 188",
+    "timestamp": "2025-08-08T23:56:50.133889"
+  },
+  {
+    "manager": "1",
+    "client": "1",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 120,
+        "sum_no_vat": 639.6,
+        "sum_with_vat": 774.0
+      }
+    ],
+    "note": "1",
+    "delivery_date": "2",
+    "delivery_address": "3",
+    "timestamp": "2025-08-09T23:57:06.290814"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T00:12:25.299000"
+  },
+  {
+    "manager": "Никитаъ=",
+    "client": "xxx",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      }
+    ],
+    "note": "Круто",
+    "delivery_date": "2",
+    "delivery_address": "1",
+    "timestamp": "2025-08-10T00:17:09.913582"
+  },
+  {
+    "manager": "НИКИТА",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 1,
+        "sum_no_vat": 5.33,
+        "sum_with_vat": 6.45
+      }
+    ],
+    "note": "1",
+    "delivery_date": "1",
+    "delivery_address": "1",
+    "timestamp": "2025-08-10T00:18:38.111964"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T00:26:31.320166"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 15,
+        "sum_no_vat": 79.95,
+        "sum_with_vat": 96.75
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T00:32:15.514375"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima Rimi",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      },
+      {
+        "code": "479225210011",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 50,
+        "sum_no_vat": 207.5,
+        "sum_with_vat": 256.5
+      }
+    ],
+    "note": "Нужна максимально быстрая доставка",
+    "delivery_date": "29.01",
+    "delivery_address": "Brivibas iela 16/b",
+    "timestamp": "2025-08-10T00:53:50.793466"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 12,
+        "sum_no_vat": 63.96,
+        "sum_with_vat": 77.4
+      },
+      {
+        "code": "4792252933491",
+        "name": "green tea MAGIC FRUIT APRICOT & PASSION FRUIT",
+        "stock": 3648,
+        "expiry": "26.09.2027",
+        "price_no_vat": "3",
+        "price_with_vat": "3.63",
+        "qty": 110,
+        "sum_no_vat": 330.0,
+        "sum_with_vat": 399.3
+      },
+      {
+        "code": "4711137550035",
+        "name": "JUSTMAKE Tsui Yu Oolong Tea 100g",
+        "stock": 157,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 8,
+        "sum_no_vat": 42.64,
+        "sum_with_vat": 51.6
+      }
+    ],
+    "note": "На товар 50011 скидка будет 20%",
+    "delivery_date": "21/08",
+    "delivery_address": "Brivibas iela 188, Riga",
+    "timestamp": "2025-08-10T01:02:38.184795"
+  },
+  {
+    "manager": "Никта",
+    "client": "Maxima Riga",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 120,
+        "sum_no_vat": 639.6,
+        "sum_with_vat": 774.0
+      },
+      {
+        "code": "4792252936812",
+        "name": "green tea Chinese collection \"JASMINE GREEN\"",
+        "stock": 4295,
+        "expiry": "08.02.2027",
+        "price_no_vat": "2.82",
+        "price_with_vat": "3.41",
+        "qty": 15,
+        "sum_no_vat": 42.3,
+        "sum_with_vat": 51.15
+      },
+      {
+        "code": "4792252933552",
+        "name": "green tea MAGIC FRUIT SOURSOP",
+        "stock": 5183,
+        "expiry": "19.12.2026",
+        "price_no_vat": "3",
+        "price_with_vat": "3.63",
+        "qty": 20,
+        "sum_no_vat": 60.0,
+        "sum_with_vat": 72.6
+      },
+      {
+        "code": "4711137550035",
+        "name": "JUSTMAKE Tsui Yu Oolong Tea 100g",
+        "stock": 157,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 15,
+        "sum_no_vat": 79.95,
+        "sum_with_vat": 96.75
+      }
+    ],
+    "note": "Нужно быстрее доставить товар",
+    "delivery_date": "12/08",
+    "delivery_address": "Brivibas gatve 188",
+    "timestamp": "2025-08-10T01:07:46.521955"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima Baltic",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      },
+      {
+        "code": "4792252933491",
+        "name": "green tea MAGIC FRUIT APRICOT & PASSION FRUIT",
+        "stock": 3648,
+        "expiry": "26.09.2027",
+        "price_no_vat": "3",
+        "price_with_vat": "3.63",
+        "qty": 50,
+        "sum_no_vat": 150.0,
+        "sum_with_vat": 181.5
+      },
+      {
+        "code": "4792252400184",
+        "name": "green tea \"The Garden of Stones'' Milk Oolong",
+        "stock": 1355,
+        "expiry": "15.02.2028",
+        "price_no_vat": "4.25",
+        "price_with_vat": "5.14",
+        "qty": 21,
+        "sum_no_vat": 89.25,
+        "sum_with_vat": 107.94
+      },
+      {
+        "code": "479225210011",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 20,
+        "sum_no_vat": 83.0,
+        "sum_with_vat": 102.6
+      }
+    ],
+    "note": "Скида на 50011 10%",
+    "delivery_date": "12.08",
+    "delivery_address": "Rigas iela 18, Daugavpils",
+    "timestamp": "2025-08-10T12:04:57.735559"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      }
+    ],
+    "note": "кууку",
+    "delivery_date": "12.02",
+    "delivery_address": "Brivibas 43, Riga",
+    "timestamp": "2025-08-10T12:28:12.544988"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxim",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 25,
+        "sum_no_vat": 133.25,
+        "sum_with_vat": 161.25
+      }
+    ],
+    "note": "x",
+    "delivery_date": "x",
+    "delivery_address": "x",
+    "timestamp": "2025-08-10T13:18:58.381969"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 5,
+        "sum_no_vat": 26.65,
+        "sum_with_vat": 32.25
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T13:27:59.594697"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 25,
+        "sum_no_vat": 133.25,
+        "sum_with_vat": 161.25
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T13:47:11.429999"
+  },
+  {
+    "manager": "ччччч",
+    "client": "ччч",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 15,
+        "sum_no_vat": 79.95,
+        "sum_with_vat": 96.75
+      }
+    ],
+    "note": "-",
+    "delivery_date": "-",
+    "delivery_address": "-",
+    "timestamp": "2025-08-10T14:12:14.186932"
+  },
+  {
+    "manager": "Nik",
+    "client": "nik",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 15,
+        "sum_no_vat": 79.95,
+        "sum_with_vat": 96.75
+      }
+    ],
+    "note": "2",
+    "delivery_date": "2",
+    "delivery_address": "2",
+    "timestamp": "2025-08-10T21:03:31.109037"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 20,
+        "sum_no_vat": 106.6,
+        "sum_with_vat": 129.0
+      },
+      {
+        "code": "479225210011",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 15,
+        "sum_no_vat": 62.25,
+        "sum_with_vat": 76.95
+      }
+    ],
+    "note": "Скидка 20%",
+    "delivery_date": "12.08",
+    "delivery_address": "Rigas iela 12, Daugavpils",
+    "timestamp": "2025-08-11T21:57:06.779942"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      },
+      {
+        "code": "479225210011",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 15,
+        "sum_no_vat": 62.25,
+        "sum_with_vat": 76.95
+      }
+    ],
+    "note": "100111",
+    "delivery_date": "11",
+    "delivery_address": "Rigas iela 12",
+    "timestamp": "2025-08-11T22:29:50.373198"
+  },
+  {
+    "manager": "Никита",
+    "client": "Maxima",
+    "products": [
+      {
+        "code": "4711137550011",
+        "name": "JUSTMAKE Tung Ding Oolong Tea 100g",
+        "stock": 56,
+        "expiry": "05.01.2028",
+        "price_no_vat": "5.33",
+        "price_with_vat": "6.45",
+        "qty": 10,
+        "sum_no_vat": 53.3,
+        "sum_with_vat": 64.5
+      },
+      {
+        "code": "479225210011",
+        "name": "green tea PRESENT - \"GREEN\"",
+        "stock": 762,
+        "expiry": "19.02.2028",
+        "price_no_vat": "4.15",
+        "price_with_vat": "5.13",
+        "qty": 15,
+        "sum_no_vat": 62.25,
+        "sum_with_vat": 76.95
+      }
+    ],
+    "note": "100111",
+    "delivery_date": "11",
+    "delivery_address": "Rigas iela 12",
+    "timestamp": "2025-08-11T22:29:50.401894"
+  }
+]

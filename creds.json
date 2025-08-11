@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alanaika-order",
+  "private_key_id": "60caac60555900e0c983de2bbff98915538032e2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEEJp4PUpDr3a7\nMYw4fn+JJzxqmtAlo44EU3usTa/BCcTWQ+f+42bsM9Hfo5Dzt6626R12/2SsHFez\nPTJUvhzkXDddq11DGUzcTzGGUrenb5fg4dbpd3MU6ph8gF+A/ni/cwwEbS+r5h+l\np2x23D0ZPPVN43WG5tH3pR+jLtlPf6rTb+UH/pXwMkPQVD1jLXs4XgdvD+/mBx01\nA67SwN9ErcxHexUQuFH2ckOC7DOJ10I1M42D7RatGHHLI3C080HyXHuPLm2ry8FR\nFotBnn6bWwwK7v9o4O3mbYOiVsCCLOIZL26kLnW+UgMk8FuVeiBClM15T23AAJgz\nuFFfF9NRAgMBAAECggEACVtkPtiod5tbMI76WtwdIq7Z3xnTNRellILmMiR9PrqE\nT4g7PT6tq9hDg+98wIffrYSpsoMY4y6hWBlToogV7YdR4F1YOKZ/hLxeEAO4tnPA\nwSOQD9Fyv2DcjQUMocWrPjJLtJagJb1YXW3UgyXqv86JI7nnMwxnIQErNczLo9O9\ntAOQyTAFsOpID9yCv662u7eXCtgc9eFLBvbBWyTutmmOWglVfSozwDaiHWx2fTXL\nxoxZrKQ5gTpzDogVAJlFlspx9L0bEflJgHEfuSBU186zDxnStandW3gd2iMEvzFh\n5I8VXGNDNGA4xwUjwmE3rLslaTNC1a0VL7mUL3CSoQKBgQD+wtgVBbMtNoIHv6hF\nANDjJuxBOw7C4rNj3S3+suC7/BUT7chRn09KWrKazy3iW/vlDb8CsIkS4F41Ji41\nUHj1GJRy83jhNP1n9Dr3dxXK5Ye5Pnm5ANoSnhj/kgZNLxba2n0LXMEqSrPa+XrH\nl1epN3dReZofj33S+8SBuvZNsQKBgQDFBK/+uXBERYaN+YM5yBamctmF3+6sYGzy\nRihcUElTiAIN5rcQR4iezo+pwvIcBiwcFMH1e0hg7Y7b3SbUgMKJnnFW/WGjRe2N\nFpmabmHYrfg1Jk7U2fHz2I0hJz9zXQ+lsflFYXSKhVGVk+lKY0rbw3nCGFyP72qc\nRMFnecsnoQKBgGJnHFOyae0S2tLnYrWUhRrYU/U2PJNmQWhXbIauzUOPMQ0LkY6F\nfHj543cMg2qloPxufNMrIScbZwgcgUiylqYFIoHsLUq/zwmyOnyPkOlYEz6oNRgS\njikWzA0beDej8q4CKr6Sy0HsrN/t8VDa0k9YT0w3LiL2p+EwwkxhzPVhAoGAM4VA\nSMpRc2kDAMmI6WlLkwdhnsKqdWVZ2BlEoK9WHYPplZ0JrjYmofC+XNRf37g1fLpo\n5jrw+Hfm7dPtPZDWToqidO8Zw0qcDlMko9/Nso375Fo6Lys3PF8auNq8mvxxBRF/\ncAdGJJssdIMTdKJ2hvWdN4aLXhBrvqW0Nc0BtUECgYEArLshJwdwH3sIHxDkTryk\nnk79Au/OzoqBOtBgncz+IUna88M5KeUkY/AP6u/ac52HuGI0XNIJz4LUyRUv8dFJ\nqmILpqf5Rl4Rn4Lgdy9Wdrlf7uR7BF4vC3x2207SVQxtGXucjGVfjXHwkj8cPLNE\nFNLE7Xz2rod63jrvqe3SrqY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "alapart2@alanaika-order.iam.gserviceaccount.com",
+  "client_id": "107177054750675146477",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/alapart2%40alanaika-order.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
