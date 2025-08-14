@@ -8,7 +8,8 @@ scopes = [
     "https://www.googleapis.com/auth/drive"
 ]
 
-creds = Credentials.from_service_account_file('creds.json', scopes=scopes)
+# Используем правильное имя файла ключа
+creds = Credentials.from_service_account_file('google_credentials.json', scopes=scopes)
 gc = gspread.authorize(creds)
 
 # Открываем таблицу и лист
@@ -21,6 +22,7 @@ def get_products():
     for row in records:
         product = {
             "code": str(row.get("Код", "")).strip(),
+            "extra_code": str(row.get("Товар", "")).strip(),
             "name": row.get("Наименование", ""),
             "stock": row.get("Остаток", 0),
             "expiry": row.get("Срок годности", ""),
@@ -31,12 +33,10 @@ def get_products():
     return products
 
 def find_product_by_code_ending(code_ending):
-    print(f"Ищем товар по коду: '{code_ending}'")
     products = get_products()
+    matches = []
     for product in products:
-        print(f"Проверяем товар с кодом: '{product['code']}'")
         if product["code"].endswith(code_ending):
-            print("Товар найден")
-            return product
-    print("Товар не найден в базе")
-    return None
+            matches.append(product)
+    return matches  # возвращаем список всех совпадений
+

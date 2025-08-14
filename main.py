@@ -76,7 +76,7 @@ async def set_client(msg: types.Message, state: FSMContext):
         one_time_keyboard=True
     )
     await msg.answer(
-        "✅ Клиент сохранён.\nВведите последние 5️⃣ цифр кода товара или нажмите 'Готово', если товаров больше нет.",
+        "✅ Клиент сохранён.\nВведите последние 4️⃣ цифр кода товара или нажмите 'Готово', если товаров больше нет.",
         reply_markup=keyboard
     )
     await state.set_state(OrderState.product_code)
@@ -84,32 +84,74 @@ async def set_client(msg: types.Message, state: FSMContext):
 
 
 # ----------------- PRODUCT CODE -> show product card with inline confirm -----------------
+# ----------------- PRODUCT CODE -> show product card with inline confirm -----------------
 @dp.message(OrderState.product_code)
 async def handle_product_code(msg: types.Message, state: FSMContext):
-    # Если пользователь нажал "Готово" окончательно (завершение набора товаров)
+    # Если пользователь нажал "Готово"
     if msg.text.lower() == "готово":
         order = get_order(msg.from_user.id)
         if not order or not order.get("products"):
             await msg.answer("❌ Сначала добавьте хотя бы один товар.")
             return
-        # Переходим к вводу примечания (как раньше)
-        await msg.answer("✏️ Укажите примечание для бухгалтера (например, «-»):", reply_markup=types.ReplyKeyboardRemove())
+        await msg.answer(
+            "✏️ Укажите примечание для бухгалтера:", 
+            reply_markup=types.ReplyKeyboardRemove()
+        )
         await state.set_state(OrderState.note)
         return
 
     text = msg.text.strip()
-    if not (text.isdigit() and len(text) == 5):
-        await msg.answer("❗ Введите ровно 5️⃣ цифр кода товара.")
+    if not (text.isdigit() and len(text) == 4):
+        await msg.answer("❗ Введите ровно 4️⃣ цифр кода товара.")
         return
 
-    product = find_product_by_code_ending(text)
-    if not product:
+    found_products = find_product_by_code_ending(text)
+    if not found_products:
         await msg.answer("❌ Товар не найден. Проверьте код и попробуйте снова.")
         return
+    elif len(found_products) == 1:
+        product = found_products[0]
+        await state.update_data(product=product)
+        await show_product_card(msg, product, state)
+        return
 
-    # Сохраняем найденный товар во временных данных состояния
+    # Если найдено несколько товаров, формируем inline-кнопки для выбора
+    ikb = types.InlineKeyboardMarkup(
+        inline_keyboard=[
+            [types.InlineKeyboardButton(
+                text=f"{item['name']} (код {item['code']})",
+                callback_data=f"select_product_{idx}"
+            )] for idx, item in enumerate(found_products)
+        ]
+    )
+
+    # Сохраняем список найденных товаров в state
+    await state.update_data(found_products=found_products)
+    await msg.answer("Найдено несколько товаров. Выберите нужный:", reply_markup=ikb)
+
+
+# ----------------- CALLBACK: выбор товара из списка -----------------
+@dp.callback_query(lambda c: c.data.startswith("select_product_"))
+async def cb_select_product(call: types.CallbackQuery, state: FSMContext):
+    await call.answer()
+    data = await state.get_data()
+    found_products = data.get("found_products", [])
+
+    idx = int(call.data.split("_")[-1])
+    if idx >= len(found_products):
+        await call.message.answer("❌ Ошибка выбора товара. Попробуйте снова.")
+        return
+
+    product = found_products[idx]
     await state.update_data(product=product)
+    await call.message.edit_reply_markup(None)  # удаляем кнопки выбора
 
+    # Показ карточки товара с кнопками Добавить/Отменить
+    await show_product_card(call.message, product, state)
+
+
+# ----------------- Функция: показать карточку товара -----------------
+async def show_product_card(msg_obj, product, state):
     info = (
         f"🔎 Найден товар:\n"
         f"📦 {product['name']}\n"
@@ -119,8 +161,6 @@ async def handle_product_code(msg: types.Message, state: FSMContext):
         f"💶 Цена с НДС: {product['price_with_vat']} €\n\n"
         f"Добавить этот товар?"
     )
-
-    # Inline-кнопки прямо под сообщением о товаре
     ikb = types.InlineKeyboardMarkup(
         inline_keyboard=[
             [
@@ -129,8 +169,9 @@ async def handle_product_code(msg: types.Message, state: FSMContext):
             ]
         ]
     )
-    await msg.answer(info, reply_markup=ikb)
+    await msg_obj.answer(info, reply_markup=ikb)
     await state.set_state(OrderState.confirm_product)
+
 
 
 # ----------------- Inline callbacks for add/cancel product -----------------
@@ -455,7 +496,7 @@ async def handle_editing_choice(msg: types.Message, state: FSMContext):
     if text == "➕ Добавить товар":
         # В режиме редактирования — устанавливаем флаг editing_mode (уже установлен), и просим код
         await state.update_data(editing_mode=True)
-        await msg.answer("Введите последние 5️⃣ цифр кода нового товара:", reply_markup=types.ReplyKeyboardRemove())
+        await msg.answer("Введите последние 4️⃣ цифр кода нового товара:", reply_markup=types.ReplyKeyboardRemove())
         await state.set_state(OrderState.product_code)
         return
 
